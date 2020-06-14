@@ -35,8 +35,10 @@ rango = range(9)
 
 
 #Impresion Varibales
-print(dato_byte)
+print(rango)
 
 
 #Mostrat tipo de dato
-print(type(dato_byte))
+print(type(rango))
+
+
