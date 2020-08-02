@@ -56,5 +56,10 @@ else:
     
 print(f"### Buscar en la lista el número {busqueda} ###")
 
-search = numeros.index(busqueda)
-print(f"El número buscado existe en la lista, es el indice: {search}")
+try:
+    search = numeros.index(busqueda)
+    print(f"El número buscado existe en la lista, es el indice: {search}")
+
+except:
+    print("El número no está en la lista")
+    
